@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table!</title>
+</head>
+<body>
+    <!-- tr = table row || td = table data -->
+    <!-- atribut table=> CSS[border(frame), cellspacing(jarak tiap kata), cellpadding(lebar tiap box)], 
+        colspan(menggabunkan 2cells horizontal), rowspan(menggabunkan 2cells vertikal/row) -->
+    
+    <!-- Table simple -->
+    <table border="2" cellspacing="1" cellpadding="5">
+        <tr>
+            <td>baris1, kolom1</td>
+            <td>baris1, kolom2</td>
+        </tr>
+        <tr>
+            <td>baris2, kolom1</td>
+            <td>baris2, kolom2</td>
+        </tr>
+    </table>
+
+    <br><br><br><br>
+
+    <!-- Implementasi TableSimple => colspan dan rowspan -->
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td rowspan="3">rowspan sebanyak 3</td>
+            <td colspan="2">Colspan Sebanyak 2</td>
+        </tr>
+        <tr>
+            
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+        <tr>
+            
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>

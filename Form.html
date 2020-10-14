@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Basic</title>
+</head>
+<body>
+    <!-- elemen form : input, textarea(sprt komentar jmlhny banyak), select(dropdown), 
+        button, label(menandai elemen input) ||checkbox, textfield, radio button -->
+    <form action="post">
+
+        <!-- input type : text, password, radio, checkbox -->
+        <!-- input type : submit, reset, button -->
+        <!-- note: id pada input dan for pada label harus sama nilainya  -->
+        <label for="username">username :</label>
+        <input type="text", id="username">
+        <br>
+        <label for="password">password :</label>
+        <input type="password", id=password>
+        <br>
+        <!-- radio button => name disini adalah seperti grouping suapay kita gabisa pilih dua jenis kelamin -->
+        <input type="radio" id="pria" name="jeniskelamin"> <label for="pria">pria</label>
+        <input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">wanita</label>
+        <br>
+        <!-- checkbox : supaya bisa pilih banyak-->
+        <input type="checkbox" id="menyanyi"> <label for="menyanyi">menyanyi</label>
+        <input type="checkbox" id="ngoding"> <label for="ngoding">ngoding</label>
+        <input type="checkbox" id="pentest"> <label for="pentest">menyanyi</label>
+        <br>
+        <!-- textarea : cocok untuk komentar atau sesuatu yg harus menginput panjang -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <!-- dropdown : atau select || Biasanya untuk memilih kota kelahiran -->
+        <select name="" id="">
+            <option value="">Bandung</option>
+            <option value="">Jakarta</option>
+            <option value="">Bali</option>
+        </select>
+        <br>
+
+
+
+        <!-- selain submit, kita bisa pakai reset untuk menghapus atau button jika ingin menambahkan fungsi lain -->
+        <!-- disarankan untuk menggunakan button -->
+        <!-- button type:submit, reset, button -->
+
+        <input type="submit" value="kirim!">
+        <button type="submit">KIRIM WITH BUTTON</button>
+
+    </form>
+</body>
+</html>
